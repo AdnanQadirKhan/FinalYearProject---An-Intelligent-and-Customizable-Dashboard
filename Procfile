@@ -1,0 +1,1 @@
+web gunicorn Intelligent_and_customizeable_dashboard.wsgi.application.wsgi:application --log-file -
