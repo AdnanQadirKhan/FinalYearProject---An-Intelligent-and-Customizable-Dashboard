@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-yc0u&qy9ic-r+&q_xv4x2zu&^xabf-67)re7+71jvqa=lm8#ih
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fyp-intelligent-dashboard.herokuapp.com','127.0.0.1']
 
 # Application definition
 
@@ -117,8 +117,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATIC_ROOT = BASE_DIR / 'static'
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / 'static', ]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
